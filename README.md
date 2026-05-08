@@ -1,6 +1,6 @@
 # gtd-maei-thesis
 
-Code to reproduce **Figure 5.1** from **Hamid Maei’s 2011 PhD thesis** on gradient temporal-difference learning. The thesis figure summarizes thesis-scale parameter studies for several classic off-policy / linear function approximation problems (random walks and Boyan’s chain), comparing **TD(0)** with **TDC**, **GTD(2)**, and **GTD(1)** under the same RMSPBE metric used in the thesis.
+Code to reproduce **Figure 5.1** from **Hamid Maei’s 2011 PhD thesis** on gradient temporal-difference learning. The thesis figure summarizes thesis-scale parameter studies for several classic off-policy / linear function approximation problems (random walks and Boyan’s chain), comparing **TD(0)** with **TDC**, **GTD2**, and **GTD1** under the same RMSPBE metric used in the thesis.
 
 The experiments build on the corrected setup described in Sutton, Maei, et al. (ICML 2009); this repository is a self-contained Python project with runnable drivers, plotting scripts, and checks.
 
