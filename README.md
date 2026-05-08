@@ -6,6 +6,7 @@ The experiments build on the corrected setup described in Sutton, Maei, et al. (
 
 ## What’s included
 
+- **Thesis PDF:** [`maei-thesis-2011.pdf`](maei-thesis-2011.pdf) — Hamid Maei (2011), University of Alberta.
 - **Experiments** that sweep step sizes and secondary step-size ratios (`eta = beta / alpha`), save tensors to `data/*/results.npz`, and generate per-problem and combined figures under `figures/`.
 - **Unit and consistency tests** in `tests/` (run with `pytest`).
 - **Checked-in `data/` and `figures/`** so you can inspect thesis-style outputs without rerunning the full sweeps (full runs are still reproducible from the scripts).
@@ -14,6 +15,7 @@ The experiments build on the corrected setup described in Sutton, Maei, et al. (
 
 ```
 gtd-maei-thesis/
+  maei-thesis-2011.pdf     Maei (2011) PhD thesis (PDF)
   environments.py          Random walk + Boyan environments
   features.py              Tabular / dependent / inverted / Boyan feature maps
   algorithms.py            TD(0), TDC, GTD2, GTD1
