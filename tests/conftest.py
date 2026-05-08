@@ -1,7 +1,7 @@
 """pytest config: make the parent package importable without an install.
 
-The gtd_phd_maei folder is a flat-module layout (each .py
-file at top level), so the tests inject that folder into sys.path here.
+The gtd-maei-thesis tree uses a flat-module layout (top-level .py modules),
+so tests inject that folder into sys.path here.
 """
 
 from __future__ import annotations

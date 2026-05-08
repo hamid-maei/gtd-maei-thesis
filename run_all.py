@@ -34,7 +34,7 @@ _ARCHIVE_PY = os.path.join(
     "python_codes",
 )
 
-# (data subfolder under gtd_phd_maei/data/, archive plot_all_*.py name).
+# (data under repo-root data/, archive plot_all_*.py names when using --reference-plots).
 _REFERENCE_PLOT_SCRIPTS: list[tuple[str, str]] = [
     ("randwalk_tab", "plot_all_randwalk_tab.py"),
     ("randwalk_fa", "plot_all_randwalk_fa.py"),
